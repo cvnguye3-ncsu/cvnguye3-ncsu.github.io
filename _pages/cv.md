@@ -9,7 +9,7 @@ redirect_from:
 
 [Download resume (PDF)]({{ site.baseurl }}/calvin-nguyen-resume-updated.pdf){: .btn .btn--primary}
 
-Cary, NC · [cvnguye3@ncsu.edu](mailto:cvnguye3@ncsu.edu) · 919-599-7880
+Cary, NC · [cvnguye3@ncsu.edu](mailto:cvnguye3@ncsu.edu)
 
 Education
 ======
