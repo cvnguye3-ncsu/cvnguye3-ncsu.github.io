@@ -1,152 +1,143 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Calvin Nguyen",
+    "label": "Computer Science PhD Student",
+    "email": "cvnguye3@ncsu.edu",
+    "phone": "919-599-7880",
+    "website": "https://cvnguye3-ncsu.github.io",
+    "summary": "Computer Science PhD student researching geospatial machine learning, remote sensing, semantic segmentation, and computer vision.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Cary",
       "countryCode": "US",
-      "region": ""
+      "region": "NC"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Calvin Nguyen",
+        "url": "https://scholar.google.com/citations?user=ZzT_yjwAAAAJ"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0009-0005-4647-9023",
+        "url": "https://orcid.org/0009-0005-4647-9023"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "cvnguye3-ncsu",
+        "url": "https://github.com/cvnguye3-ncsu"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Natrx",
+      "position": "Data Scientist, Geospatial ML & Remote Sensing",
+      "website": "",
+      "startDate": "2023-08",
+      "endDate": "2026-07",
+      "summary": "",
+      "highlights": [
+        "Developed a geospatial machine-learning pipeline for land/water classification and shoreline-change detection, supporting analysis of 2,909 shoreline miles across 39 North Carolina study areas and 93,017 measurement locations.",
+        "Developed and validated Guyana's PlanetScope-based shoreline classification workflow, achieving 97.9–99.2% accuracy across 300 bootstrapped evaluations and enabling erosion and accretion mapping along 682 km of coastline.",
+        "Created an experimental submerged-mudbank detection method using Canny edge detection and support vector machines on 50 cm satellite imagery.",
+        "Produced land/water segmentation for Biscayne Bay erosion analysis and assembled a property-level geospatial dataset.",
+        "Evaluated eight physical datasets and applied literature-derived rules within a prioritization analysis of 78 candidate Billion Oyster Project restoration sites.",
+        "Processed topo-bathymetric LiDAR, water-level datums, submerged aquatic vegetation, and soil-carbon data for coastal restoration planning."
+      ]
+    },
+    {
+      "company": "Wake County Library",
+      "position": "Page",
+      "website": "",
+      "startDate": "2023-06",
+      "endDate": "2023-08",
+      "summary": "",
+      "highlights": [
+        "Sorted and shelved library materials in alphabetic and numerical order.",
+        "Checked in materials using the library's automated computer system.",
+        "Boxed and unboxed materials and assisted library members with book donations."
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "North Carolina State University",
+      "area": "PhD, Computer Science",
+      "studyType": "PhD",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "Anticipated December 2027",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "North Carolina State University",
+      "area": "MCS, Computer Science",
+      "studyType": "MCS",
       "startDate": "",
-      "endDate": "2014",
+      "endDate": "May 2024",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
+      "institution": "North Carolina State University",
+      "area": "BS, Computer Science",
+      "studyType": "BS",
       "startDate": "",
-      "endDate": "2012",
+      "endDate": "May 2019",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "volunteer": [
+    {
+      "organization": "JC Raulston Arboretum",
+      "position": "Volunteer",
+      "startDate": "Spring 2023",
+      "endDate": "Summer 2023",
+      "summary": "Audited plant locations and labels, replaced stakes and labels, consulted on a deprecated database connector, and demonstrated RESTful API access to PostgreSQL/PostGIS.",
+      "highlights": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming and data",
+      "level": "",
+      "keywords": ["Python", "pandas"]
+    },
+    {
+      "name": "Geospatial",
+      "level": "",
+      "keywords": ["GIS", "Remote sensing", "Spatial analysis", "GeoPandas", "Rasterio", "GDAL"]
+    },
+    {
+      "name": "Machine learning",
+      "level": "",
+      "keywords": ["scikit-learn", "XGBoost", "Computer vision"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Foundation Models for Semantic Segmentation of Thick/Thin Clouds and Cloud Shadows: A Comparative Study",
+      "publisher": "ACM SIGSPATIAL 2025 (short paper)",
+      "releaseDate": "2025",
+      "website": "https://dl.acm.org/doi/10.1145/3748636.3762766",
+      "summary": "Converts raw L8-Biome scenes into fixed 224 × 224 training splits and runs FMask, HQ-SAM, Prithvi, SatlasNet, and LSKNet/UNetFormer through Hydra-configured training and metric pipelines."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Evaluating Geospatial Foundational Models for Cloud Segmentation: A Comparative Study of Performance, Calibration, and Representations",
+      "publisher": "Submitted to IEEE DSAA 2026",
+      "releaseDate": "2026",
+      "website": "https://github.com/cvnguye3-ncsu/gfm-cloud-segmentation",
+      "summary": "Routes 17 frozen geospatial encoders through a shared segmentation path and evaluates in- and out-of-distribution IoU, calibration, and representation metrics with controlled PyTorch Lightning and Hydra experiments."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

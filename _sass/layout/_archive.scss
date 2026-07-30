@@ -84,6 +84,23 @@
   }
 }
 
+.archive__item--publication:hover .archive__item-title {
+  text-decoration: none;
+}
+
+.research-figure {
+  justify-content: center;
+
+  img {
+    width: 75%;
+  }
+
+  figcaption {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 /*
    List view
