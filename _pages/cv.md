@@ -63,7 +63,7 @@ Research
 
 [GitHub repository](https://github.com/cvnguye3-ncsu/gfm-cloud-segmentation)
 
-**Advisor:** Ranga Raju Vatsavai, Professor, North Carolina State University
+**Advisor:** [Ranga Raju Vatsavai](https://csc.ncsu.edu/people/rrvatsav/), Professor, North Carolina State University
 
 Volunteering
 ======
