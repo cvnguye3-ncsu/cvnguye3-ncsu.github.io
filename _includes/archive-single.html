@@ -63,7 +63,7 @@
     {% endif %}
     
     {% if post.collection == 'publications' and post.githuburl %}
-      <p>{% if post.publicationurl %}<a href="{{ post.publicationurl }}">ACM Digital Library</a> | {% endif %}<a href="{{ post.githuburl }}">GitHub repository</a></p>
+      <p>{% if post.paperurl %}<a href="{{ post.paperurl }}">Preprint</a> | {% endif %}{% if post.publicationurl %}<a href="{{ post.publicationurl }}">ACM Digital Library</a> | {% endif %}<a href="{{ post.githuburl }}">GitHub repository</a></p>
     {% elsif post.paperurl and post.githuburl %}
       <p><a href="{{ post.paperurl }}">Download paper</a>{% if post.publicationurl %} | <a href="{{ post.publicationurl }}">ACM Digital Library</a>{% endif %} | <a href="{{ post.githuburl }}">GitHub repository</a></p>
     {% elsif post.githuburl %}

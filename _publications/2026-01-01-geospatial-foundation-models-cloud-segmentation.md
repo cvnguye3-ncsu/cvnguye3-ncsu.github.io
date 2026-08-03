@@ -7,9 +7,10 @@ excerpt: "This study asks which broad choices in geospatial foundation-model des
 date: 2026-01-01
 venue: "IEEE DSAA"
 status: "Submitted to"
+paperurl: "https://assets-eu.researchsquare.com/files/rs-9434428/v1_covered_5c617795-55a5-485a-9718-140e6649d7c4.pdf?c=1778253492"
 githuburl: "https://github.com/cvnguye3-ncsu/gfm-cloud-segmentation"
 ---
 
 {{ page.excerpt }}
 
-<p><a href="{{ page.githuburl }}">GitHub repository</a></p>
+<p><a href="{{ page.paperurl }}">Preprint</a> · <a href="{{ page.githuburl }}">GitHub repository</a></p>
